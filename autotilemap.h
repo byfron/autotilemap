@@ -68,7 +68,7 @@ public:
 		_atlas_id = autotiler.get("atlas_id");
 		_src_tile = autotiler.get("src_1");
 		_src_2 = autotiler.get("src_2");
-		_comp_tile = autotiler.get("comp_tile");
+		_comp_tile = autotiler.get("comp_tiles");
 		for (int i = 0; i < codes.size(); i++) {
 			auto code = codes[i];
 			_tile_metadata_map[int(code.get("code"))] = int(code.get("id"));
